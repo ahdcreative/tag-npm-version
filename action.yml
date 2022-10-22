@@ -5,7 +5,6 @@ branding:
 description: Create a new Git tag whenever a new Version it's published on NPM.
 inputs:
   git-user-email: Git user.email to use
-  default: 41898282+github-actions[bot]@users.noreply.github.com
   git-user-name: Git user.name
   default: github-actions[bot]
   tag-prefix: Prefix to prepend the the version in package.json
